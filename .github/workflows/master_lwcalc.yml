@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://go.microsoft.com/fwlink/?linkid=2134798
 # More GitHub Actions for Azure: https://go.microsoft.com/fwlink/?linkid=2135048
 
-name: Azure App Service - LWcalc(Production), Build and deploy DotnetCore app
+name: Azure App Service - lwcalc(Production), Build and deploy DotnetCore app
 
 on:
   push:
@@ -32,8 +32,8 @@ jobs:
     - name: Run Azure webapp deploy action using publish profile credentials
       uses: azure/webapps-deploy@v2
       with:
-        app-name: LWcalc
+        app-name: lwcalc
         slot-name: Production
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_460691C6110248F798BA04BAF22B6A5B }}
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F85D2CFBC08F44F38B72B4586511CD89 }}
         package: ${{env.DOTNET_ROOT}}/myapp
 
