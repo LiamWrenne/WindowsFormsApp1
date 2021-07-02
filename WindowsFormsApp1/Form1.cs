@@ -16,7 +16,7 @@ namespace WindowsFormsApp1
         bool operationPerf = false;
         string operation = "";
         double answer = 0;
-        readonly string file = "C:\\Users\\Liam\\source\\repos\\WindowsFormsApp1\\file.txt";
+        readonly string file = "C:\\Users\\5226661\\source\\repos\\WindowsFormsApp1\\file.txt";
 
         public Form1()
         {
@@ -96,7 +96,7 @@ namespace WindowsFormsApp1
             }
             label.Text = label.Text + " = " + textbox.Text;
 
-            File.AppendAllText(file, Convert.ToString(label.Text) + Environment.NewLine);
+            //File.AppendAllText(file, Convert.ToString(label.Text) + Environment.NewLine);
 
             label.Text = "";
             answer = Double.Parse(textbox.Text);
