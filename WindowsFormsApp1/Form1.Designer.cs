@@ -73,6 +73,7 @@ namespace WindowsFormsApp1
             this.textbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textbox.Location = new System.Drawing.Point(69, 74);
             this.textbox.Name = "textbox";
+            this.textbox.ReadOnly = true;
             this.textbox.Size = new System.Drawing.Size(311, 24);
             this.textbox.TabIndex = 1;
             this.textbox.Text = "0";
@@ -325,6 +326,7 @@ namespace WindowsFormsApp1
             this.textboxmem.Location = new System.Drawing.Point(413, 96);
             this.textboxmem.Multiline = true;
             this.textboxmem.Name = "textboxmem";
+            this.textboxmem.ReadOnly = true;
             this.textboxmem.Size = new System.Drawing.Size(171, 357);
             this.textboxmem.TabIndex = 7;
             // 
